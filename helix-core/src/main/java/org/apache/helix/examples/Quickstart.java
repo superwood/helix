@@ -41,7 +41,8 @@ import org.apache.helix.participant.StateMachineEngine;
 
 public class Quickstart {
 
-  private static String ZK_ADDRESS = "localhost:2199";
+  //private static String ZK_ADDRESS = "localhost:2199";
+  private static String ZK_ADDRESS="10.101.7.10:2181";
   private static String CLUSTER_NAME = "HELIX_QUICKSTART";
   private static int NUM_NODES = 2;
   private static final String RESOURCE_NAME = "MyResource";
